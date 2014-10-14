@@ -21,7 +21,7 @@ private Vehiculo c1;
 	
 	@Test
 	public void testDescripcion(){
-		assertEquals("Coche" + " Id:1 Descripción: Mi desc ", c1.toString());
+		assertEquals("Coche" + " Id: 1 Descripción: Mi desc", c1.toString());
 	}
 
 }

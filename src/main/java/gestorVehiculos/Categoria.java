@@ -5,11 +5,11 @@ public enum Categoria {
 	B("B", 15),
 	C("C", 20);
 	
-	public int precio;
+	public double precio;
 	public String categoria;
 	
-	Categoria (String cat, int precio){
+	Categoria (String cat, double precio){
 		this.precio = precio;
-		this.categoria = categoria;
+		this.categoria = cat;
 	}
 }

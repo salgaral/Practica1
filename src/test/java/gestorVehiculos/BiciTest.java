@@ -16,12 +16,12 @@ private Vehiculo b1;
 	
 	@Test
 	public void testPrecio() {
-		assertEquals(70, b1.calcularPrecio(9), 10e-5);
+		assertEquals(20, b1.calcularPrecio(9), 10e-5);
 	}
 	
 	@Test
 	public void testDescripcion(){
-		assertEquals("Bici" + "Id:1 Descripción: Mi desc ", b1.toString());
+		assertEquals("Bici" + " Id: 9 Descripción: Mi desc", b1.toString());
 	}
 
 }

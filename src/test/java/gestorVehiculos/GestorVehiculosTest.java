@@ -22,12 +22,12 @@ public class GestorVehiculosTest {
 	
 	@Test
 	public void testListar(){
-		assertEquals("Moto Id: 5  Descripcion: Honda", g1.toString());
+		assertEquals("Moto Id: 5 Descripción: Honda", g1.toString());
 	}
 	
 	@Test
 	public void testPrecio(){
-		assertEquals(77, g1.getPrecio(5, 11));
+		assertEquals(77, g1.getPrecio(5, 11), 10e-5);
 	}
 
 }
