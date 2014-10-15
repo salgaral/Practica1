@@ -2,6 +2,7 @@ package operaciones;
 
 public class Operations {
     private Operation[] operators = new Operation[10];
+    //private ArrayList<Operation> operators = new ArrayList<Operation>();
 
     public void add(Operation operator) {
         for (int i = 0; i < operators.length; i++) {
@@ -17,6 +18,10 @@ public class Operations {
         for (int i = 0; i < operators.length; i++) {
             operators[i] = null;
         }
+    }
+    
+    public Operation[] getOperators(){
+    	return this.operators;
     }
 
     // MAL DISEÑADO... MAL CODIFICADO
